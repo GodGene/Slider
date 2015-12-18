@@ -1,21 +1,24 @@
 {
-    "name": "godgene/yii2-slider",
-    "description": "Slider for Yii2",
+    "name": "kartik-v/yii2-slider",
+    "description": "An advanced slider input for Yii Framework 2 for both touch enabled and desktop devices based on bootstrap-slider.",
+    "keywords": ["yii2", "extension", "widget", "slider", "range", "bootstrap", "bootstrap 3"],
+    "homepage": "https://github.com/kartik-v/yii2-slider",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "BSD-2-Clause",
+    "license": "BSD 3-Clause",
     "authors": [
         {
-            "name": "godgene",
-            "email": "g1@leox.mail.ua"
+            "name": "Kartik Visweswaran",
+            "email": "kartikv2@gmail.com",
+            "homepage": "http://www.krajee.com/"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "*"
+        "kartik-v/yii2-krajee-base": "*"
     },
     "autoload": {
         "psr-4": {
-            "godgene\\slider\\": ""
+            "kartik\\slider\\": ""
         }
     }
 }
